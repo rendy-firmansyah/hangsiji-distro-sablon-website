@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-one: #0F044C;
+    --color-two: #141E61;
+    --color-three: #787A91;
+    --color-four: #FDFDFD;
+    --color-five: #EEEEEE;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: var(--color-four);
+    color: black;
+}
+
+.info {
+    background-color: var(--color-one);
+}
+
+.distance-info {
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.navbar {
+    background-color: var(--color-four) !important;
+}
+
+.navbar-brand {
+    font-family: 'Beau Rivage', cursive;
+}
+
+.btn-started {
+    background-color: var(--color-two) !important;
+    color: var(--color-four) !important;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-content {
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 2;
+}
+
+.banner-content h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+
+.btn-pesan {
+    background-color: var(--color-two) !important;
+    color: var(--color-four) !important;
+    padding: 1rem 4rem !important;
+}
+
+/* Our Partner/Client */
+.customer-logos {
+    height: auto;
+    /* padding: 5px 0; */
+}
+
+.slick-slide {
+    margin: 0 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-initialized .slick-slide{
+    display: block;
+}
+
+/* Promo */
+.promo {
+    background-color: var(--color-five);
+}
+
+.title h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* Service */
+.blue {
+    background-color: var(--color-two) !important;
+}
+
+.text-icon {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 10px !important;
+}
+
+/* TRACKING */
+.tracking {
+    background-color: var(--color-one);
+}
+
+.track-body {
+    height: auto;
+    padding: 4rem 0;
+    /* flex-wrap: wrap; */
+}
+
+.title-track {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.btn-track {
+    background-color: var(--color-four) !important;
+    color: var(--color-one) !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+}
+
+/* BEST SELLER */
+.best-seller {
+    background-color: var(--color-five);
+}
+.box-location {
+    background-color: var(--color-two);
+    padding: 1rem 1rem;
+}
+.box-location h1 {
+    font-size: 30px;
+}
+
+/* PHOTO GALLERY */
+.gallery {
+    background-color: var(--color-five);
+}
+.gap-20px {
+    gap: 20px;
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* TESTIMONI */
+.testimoni {
+    background-color: var(--color-one);
+    min-height: 200px;
+    padding: 2rem 0;
+}
+
+.box-testi {
+    padding: 2rem 2rem;
+    width: 90%;
+    /* margin: auto; */
+}
+
+.title-testi {
+    font-weight: 600;
+    color: var(--color-two);
+}
+
+.text-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--color-two);
+}
+
+/* TAGLINE */
+.tagline {
+    height: 50vh;
+    padding: 0 120px;
+}
+
+.tagline h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    border: 0 none;
+    background-color: black;
+}
+
+/* FOOTER */
+.title-footer { 
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.list ul li{
+    font-size: 14px;
+}
+
+.box-reserved {
+    height: auto;
+    background-color: var(--color-one);
+    padding: 2rem 0;
+}
+
+
+
+/* -------------------------------------- Page Kontak -------------------------------------------- */
+.title-kontak {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.logo {
+    width: 70%;
+    height: auto;
+}
+
+
+/* -------------------------------------- Page Pesan Sablon -------------------------------------------- */
+.title-pesan { 
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.btn-pesan-sablon {
+    background-color: var(--color-three) !important;
+    color: var(--color-four) !important;
+    padding: 1rem 4rem !important;
+    border-radius: 10px !important;
+}
+
+/* -------------------------------------- Page Produk -------------------------------------------------- */
+.btn-distro {
+    background-color: var(--color-three) !important;
+    color: var(--color-four) !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.btn-sablon {
+    background-color: var(--color-two) !important;
+    color: var(--color-four) !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.title-produk {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* -------------------------------------- Page Kontak -------------------------------------------------- */
+
+.btn-whatsapp {
+    background-color: var(--color-two) !important;
+    color: var(--color-four) !important;
+    padding: 1rem 2rem !important;
+    border-radius: 20px !important;
+}
+
+/* ------------------------------------ Responsive Ipad ---------------------------------------------- */
+@media (max-width: 768px) {
+
+}
+
+/* ------------------------------------ Responsive Mobile ---------------------------------------------- */
+@media (max-width: 576px) {
+    .banner-content h1 {
+        font-size: 30px;
+    }
+    .btn-pesan {
+        padding: 1rem 1.5rem !important;
+    }
+    /* .customer-logos {
+        height: auto;
+        padding: 30px 0;
+    } */
+
+    /* Promo, Best Seller, Photo Gallery */
+    .title h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .photo-gallery {
+        flex-direction: column;
+    }
+    /* Box Location */
+    .box-location h1 {
+        font-size: 20px;
+    }
+
+    /* Tagline */
+    .tagline {
+        height: 50vh;
+        padding: 1px 1px;
+    }
+    .tagline h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
